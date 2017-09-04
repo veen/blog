@@ -1,0 +1,13 @@
+extends base
+
+block title
+  title
+    =page.title
+    |, by
+    =config.author
+
+block content
+  h1=page.title
+  time(pubdate, datetime=page.date.format(YYY-MM-DD))
+    =page.date.format(config.date_format)
+  | !{page.content}

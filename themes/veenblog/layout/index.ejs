@@ -1,0 +1,5 @@
+ <% site.posts.each(function(post, i){ %>
+  <article>
+    <time class="home-date"><%= date(post.date) %></time> &raquo; <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+  </article>
+<%  }) %>

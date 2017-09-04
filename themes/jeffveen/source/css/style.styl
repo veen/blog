@@ -1,0 +1,47 @@
+@import url("https://use.typekit.net/rys0slq.css")
+
+body
+  font-family "chaparral-pro-1", serif
+  display grid
+  grid-template-columns 100px minmax(600px,1200px) 100px
+  min-height 100vh
+  margin 0
+  grid-gap 10px
+
+main
+  grid-column-start 2
+  line-height 3.13em
+  text-align justify
+
+article
+  display inline
+
+article a
+  font-size 1.30rem
+  font-weight normal
+  color #900
+  text-decoration none
+
+time
+  font-family "proxima-nova-sc-osf-1", verdana, san-serif
+  font-size 12px
+  font-weight bold
+  letter-spacing .2em
+  color #888
+  text-transform uppercase
+  white-space nowrap
+
+header
+  @extend time
+  grid-column-end span 2
+  text-align right
+  margin 20px 0
+
+address
+  display inline
+  font-style normal
+  color black
+
+p
+  color rgba(0, 0, 0, .8)
+  font-size 38px

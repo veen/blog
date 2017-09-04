@@ -1,0 +1,13 @@
+extends base
+
+block title
+  title=config.title
+
+block content
+  each post in page.posts.data
+    article
+      time(datetime =post.date.format(YYY-MM-DD))
+        =post.date.format(config.date_format)
+      |  &raquo;
+      a(href=url_for(post.path))
+        =post.title
