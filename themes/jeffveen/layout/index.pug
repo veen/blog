@@ -8,6 +8,7 @@ block content
     article
       time(datetime =post.date.format(YYY-MM-DD))
         =post.date.format(config.date_format)
-      |  &raquo;
+      |  &raquo;&nbsp;
       a(href=url_for(post.path))
         =post.title
+      |&nbsp;&nbsp;
