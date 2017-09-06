@@ -4,10 +4,10 @@
 
 
 header
-  |A website by&nbsp;
-  address.author
-    if page.layout == "post"
+  if page.layout == "post"
+    |A website by&nbsp;
+    address.author
       a(href=(config.url))
         =config.author
-    else
-      =config.author
+    //- else
+    //-   =config.author

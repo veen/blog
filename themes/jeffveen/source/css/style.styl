@@ -1,60 +1,72 @@
+/* variables */
 
 $link-highlight =         #900
 $date-highlight =         #888
-$serif          =         chaparral-pro-1, Georgia, serif
-$sans           =         proxima-nova-sc-osf-1, Verdana, san-serif
+$headline       =         chaparral-pro-display, Georgia, serif
+$serif          =         chaparral-pro, Georgia, serif
+$sans           =         proxima-nova, Verdana, san-serif
 
 
 
 html
-  font-size         100%
+  font-size               100%
 
 body
-  font-family       $serif
-  display           grid
-  min-height        100vh
-  margin            0
-  grid-gap          10px
-  grid-template-columns 1fr 650px 1fr
+  font-family             $serif
+  display                 grid
+  min-height              100vh
+  margin                  0
+  grid-gap                10px
+  grid-template-columns   1fr 650px 1fr
 
 main
-  grid-column-start 2
-
-article
-  display           inline
+  grid-column-start       2
 
 article a
-  font-size         1.30rem
-  line-height       2.13em
-  font-weight       normal
-  color             $link-highlight
-  text-decoration   none
+  font-size               1.30rem
+  line-height             2.13em
+  font-weight             normal
+  color                   $link-highlight
+  text-decoration         none
 
 time
-  font-family       $sans
-  font-size         12px
-  font-weight       bold
-  letter-spacing    .2em
-  color             $date-highlight
-  text-transform    uppercase
-  white-space       nowrap
+  font-family             $sans
+  font-size               12px
+  font-weight             bold
+  letter-spacing          .2em
+  color                   $date-highlight
+  text-transform          uppercase
+  white-space             nowrap
 
 header
-  @extend           time
-  grid-column-end   span 2
-  text-align        right
-  margin            20px 0
+  @extend                 time
+  grid-column-end         span 2
+  text-align              right
+  margin                  20px 0
 
 address
-  display           inline
-  font-style        normal
-  color             black
+  display                 block
+  font-style              normal
+  color                   black
 
 p
-  color             rgba(0, 0, 0, .8)
-  font-size         21px
-  line-height       30px
-  margin            0px
+  color                   rgba(0, 0, 0, .8)
+  font-size               18px
+  line-height             25px
+  margin                  0px
 
 p+p
-  text-indent       21px
+  text-indent             21px
+
+h1
+  font-family             $headline
+  font-size               3.2rem
+  margin-bottom           0
+
+h2
+  @extend                 h1
+  font-size               2rem
+
+a
+  color                   $link-highlight
+  text-decoration         none

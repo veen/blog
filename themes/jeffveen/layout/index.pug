@@ -1,11 +1,9 @@
 extends base
 
-block title
-  title=config.title
-
 block content
+  h1=config.author
+  p A compilation of writing from 1998-2017.
   each post in page.posts.data
-    if !post.retired
       article
         time(datetime =post.date.format(YYY-MM-DD))
           =post.date.format(config.date_format)
