@@ -5,10 +5,11 @@ block title
 
 block content
   each post in page.posts.data
-    article
-      time(datetime =post.date.format(YYY-MM-DD))
-        =post.date.format(config.date_format)
-      |  &raquo;&nbsp;
-      a(href=url_for(post.path))
-        =post.title
-      |&nbsp;&nbsp;
+    if !post.retired
+      article
+        time(datetime =post.date.format(YYY-MM-DD))
+          =post.date.format(config.date_format)
+        | &nbsp;&raquo;&nbsp;
+        a(href=url_for(post.path))
+          =post.title
+        | &nbsp;&nbsp;&nbsp;

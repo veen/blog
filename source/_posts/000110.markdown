@@ -3,6 +3,7 @@ layout: post
 title: "IA Jargon Watch"
 date: 2003-04-25
 author: Jeffrey Veen
+featured: true
 ---
 I've spent the last week inside a massive financial services corporation doing some content inventory and architecture consulting. As we spoke to the various departments within the organization, I kept a section of my notes as a glossary, recording and defining the jargon I encountered. Here's a list of the more interesting ones...
 
@@ -21,4 +22,3 @@ I've spent the last week inside a massive financial services corporation doing s
 <strong>SUAC</strong> <em>v.</em> Acronym for "Shut Up and Color". How Marketing and Engineering departments often think (or wish) design should be done.
 
 <strong>S2BU</strong> <em>n.</em> Acronym for "Sucks To Be You". A page with an error message that communicates to the user that they are not authorized to continue an interaction. "If they aren't retired or over 55, they get an S2BU and we point them to the home page."
-

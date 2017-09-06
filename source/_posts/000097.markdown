@@ -3,6 +3,7 @@ layout: post
 title: "New Orleans: 4 days, 40k calories"
 date: 2003-03-31
 author: Jeffrey Veen
+featured: true
 ---
 Last week, Leslie and I visited some <a href="http://bayoudog.com/">good</a> <a href="http://nubbin.com/">friends</a> in New Orleans. For those of you not familiar with that city, here's a little secret: it's not in the United States. Technically, of course, it was thrown in as part of the Louisiana Purchase a few years back. But don't tell the folks there. They have got to have one of the most unique blends of culture to be found in this country. New Orleans is, frankly, more a part of the Northern Caribbean than the Deep South.
 
@@ -17,4 +18,3 @@ Our gracious host is not only one of the best cooks I know, but has more knowled
 <strong>Dinner, fancy:</strong> I had given a lecture at Tulane University and the library department was kind enough to take me out for dinner at <a href="http://www.herbsaint.com/">Herbsaint</a>. There, I ate an astonishingly well spiced gumbo, complete with <a href="http://eat.epicurious.com/dictionary/food/index.ssf?DEF_ID=4201">tasso</a>. Leslie enjoyed the pork belly immensely (though who in their right mind <em>wouldn't</em> enjoy a plate of bacon and lentils?) I also experienced what is considered to be the first ever cocktail -- the <a href="http://www.gumbopages.com/food/beverages/sazerac.html">sazerac</a>. It's a delightful combination of bitters, simple syrup, and rye whiskey.
 
 <strong>To Drink:</strong> The local beer is <a href="http://www.abita.com/">Abita</a>. Drink a lot of it, preferably at the <a href="http://www.neworleansbarguide.com/CircleBar.htm">Circle Bar</a>. If you find yourself in The Quarter, have one at <a href="http://www.mollysatthemarket.net/mollys_page.html">Molly's</a>, where jukebox is full of punk, and presided over by a large poster of the <a href="http://www.mollysatthemarket.net/photo_gallery/wedding_gallery/pages/IMG_0038.htm ">Pope</a>.
-

@@ -1,47 +1,60 @@
-@import url("https://use.typekit.net/rys0slq.css")
+
+$link-highlight =         #900
+$date-highlight =         #888
+$serif          =         chaparral-pro-1, Georgia, serif
+$sans           =         proxima-nova-sc-osf-1, Verdana, san-serif
+
+
+
+html
+  font-size         100%
 
 body
-  font-family "chaparral-pro-1", serif
-  display grid
-  grid-template-columns 10% minmax(600px,1200px) 10%
-  min-height 100vh
-  margin 0
-  grid-gap 10px
+  font-family       $serif
+  display           grid
+  min-height        100vh
+  margin            0
+  grid-gap          10px
+  grid-template-columns 1fr 650px 1fr
 
 main
   grid-column-start 2
-  line-height 2.13em
-  text-align justify
 
 article
-  display inline
+  display           inline
 
 article a
-  font-size 1.30rem
-  font-weight normal
-  color #900
-  text-decoration none
+  font-size         1.30rem
+  line-height       2.13em
+  font-weight       normal
+  color             $link-highlight
+  text-decoration   none
 
 time
-  font-family "proxima-nova-sc-osf-1", verdana, san-serif
-  font-size 12px
-  font-weight bold
-  letter-spacing .2em
-  color #888
-  text-transform uppercase
-  white-space nowrap
+  font-family       $sans
+  font-size         12px
+  font-weight       bold
+  letter-spacing    .2em
+  color             $date-highlight
+  text-transform    uppercase
+  white-space       nowrap
 
 header
-  @extend time
-  grid-column-end span 2
-  text-align right
-  margin 20px 0
+  @extend           time
+  grid-column-end   span 2
+  text-align        right
+  margin            20px 0
 
 address
-  display inline
-  font-style normal
-  color black
+  display           inline
+  font-style        normal
+  color             black
 
 p
-  color rgba(0, 0, 0, .8)
-  font-size 38px
+  color             rgba(0, 0, 0, .8)
+  font-size         21px
+  line-height       30px
+  margin            0px
+
+p+p
+  text-indent       21px

@@ -1,30 +1,13 @@
-//- include helpers
 
 doctype
 html(lang=config.language)
   head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible" content="IE=edge")
-    meta(name="description" content=config.description)
-    block title
-    //- link(rel="stylesheet" href=url_for('/css/normailze.css'))
-    link(rel="stylesheet" href=url_for('/css/style.css'))
-    link(rel="shortcut icon" type="image/x-icon" href="http://www.veen.com/favicon.ico")
-  body
-    header
-      |A website by&nbsp;
-      address.author
-        =config.author
+    include _meta
+  body    
+    include _header
     main
       block content
       block pagination
     footer
-      block footer
-
-    if theme.ga
-      script.
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create','#{theme.ga}','auto');ga('send','pageview');
+      block footer  
+    include _analytics

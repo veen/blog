@@ -35,7 +35,7 @@ It was immediately clear that Tony put a lot of work into surrounding himself wi
 
 It was through Tony that we meet everyone else at [True Ventures][]. He's a partner there now, and when I left Google and started thinking about doing something with [Bryan][], True was our first call. They were one of the early VC funds, about five years ago, to focus exclusively on seed-stage companies -- small teams that haven't taken a formal round of financing yet. These companies are the riskiest investments since the team usually hasn't even started building their idea. True focuses not just on giving them money to give it a go, but reducing the overall risk by attempting to eliminate as many of the factors that tank a company in the first year.
 
-Specifically, True puts a tremendous amount of effort into the community of founders with whom they work. They host frequent events, bring in experienced and inspiratiional speakers, and help the entrepreneurs they've funded connect with each other. We knew we could pick up the phone and talk not only to the partners, but to any of the other founders and we'd find someone who'd been through whatever we were facing that day.
+Specifically, True puts a tremendous amount of effort into the community of founders with whom they work. They host frequent events, bring in experienced and inspirational speakers, and help the entrepreneurs they've funded connect with each other. We knew we could pick up the phone and talk not only to the partners, but to any of the other founders and we'd find someone who'd been through whatever we were facing that day.
 
 ## The most interesting dinner party ever
 

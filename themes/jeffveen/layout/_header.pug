@@ -1,0 +1,13 @@
+//- 
+  Displays the header "A website by Jeffrey Veen". If the page is a post, 
+  it includes a link back to the homepage.
+
+
+header
+  |A website by&nbsp;
+  address.author
+    if page.layout == "post"
+      a(href=(config.url))
+        =config.author
+    else
+      =config.author

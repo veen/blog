@@ -3,6 +3,7 @@ layout: post
 title: "A Contrast in Urban Design"
 date: 2003-04-23
 author: Jeffrey Veen
+featured: true
 ---
 I've been to Denver many times, and whenever I ask someone what to do while I'm there, they respond, "Go to Boulder..." And that's exactly what I did on my way home from Minneapolis last week. Today, I'm in San Antonio, Texas. Every region in this country is different, of course, no matter how homogenized American culture becomes. On the surface, things like accent, food, and architecture jump out immediately. But the more subtle qualities of a new city can be even more interesting.
 
@@ -19,4 +20,3 @@ The experience of being in suburban San Antonio has been a series of short, high
 The irony is stark here. Downtown San Antonio is economically depressed, yet hosts a manufactured tourist destination known as the "<a href="http://thesanantonioriverwalk.com/">River Walk</a>". There, sunken below the city streets away from any urban blight, a fantasy world of theme restaurants, bars, and boat tours lures visitors to a place that, strikingly, is a parody of the very human-centered design I appreciated in Boulder. The same private/public spaces connected with walkable paths and mixed use retail. Tourists stay in hotels on the river, walk to the restaurants, and interact with one another in open community areas. And it all feels so "different" from the suburbs, with planned communities and SUVs zooming from errand to errand. Again, striking.
 
 Coincidently, the USA Today outside my hotel room door was headlined, "<a href="http://www.usatoday.com/news/health/2003-04-22-walk-cover_x.htm">City, suburban designs could be bad for your health</a>."
-

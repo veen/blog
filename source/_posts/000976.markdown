@@ -4,7 +4,7 @@ title: "Obama: Open formats for government data"
 date: 2007-11-14
 author: Jeffrey Veen
 ---
-<a href="http://www.barackobama.com/"><img src="http://www.barackobama.com/images/widgets/Obama08_ThumbLogo100.gif" alt="Obama 2008 campaign logo" style="float:right;padding=5px;border:none;"></a>Senator Barak Obama visited Google today and spent about 90 minutes in our cafe talking and answering questions. He was in Silicon Valley to introduce his plan for technology and innovation, network neutrality, universal broadband, and more. Wired News has [coverage][] of everything he promised, but the thing that really stood out for me was this:
+Senator Barak Obama visited Google today and spent about 90 minutes in our cafe talking and answering questions. He was in Silicon Valley to introduce his plan for technology and innovation, network neutrality, universal broadband, and more. Wired News has [coverage][] of everything he promised, but the thing that really stood out for me was this:
 
 >Making government data available online in universally accessible formats to allow citizens to make use of that data to comment, derive value, and take action in their own communities."
 
